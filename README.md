@@ -1,6 +1,6 @@
 # Datafication.S3Connector
 
-A high-performance S3 file connector for .NET that provides seamless integration between AWS S3 (and S3-compatible services) and the Datafication.Core DataBlock API.
+An S3 file connector for .NET that provides seamless integration between AWS S3 (and S3-compatible services) and the Datafication.Core DataBlock API.
 
 ## Description
 
