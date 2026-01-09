@@ -49,39 +49,17 @@ Datafication.S3Connector is a specialized connector library that bridges Amazon 
 
 ## Installation
 
-> **Note**: Datafication.S3Connector is currently in pre-release. NuGet package availability on nuget.org is pending signing certificate approval.
+> **Note**: Datafication.S3Connector is currently in pre-release. The packages are now available on nuget.org.
+
+```bash
+dotnet add package Datafication.S3Connector --version 1.0.1
+```
 
 **Running the Samples:**
-
-The `samples` directory includes pre-built packages and a `NuGet.config` that references them. The sample projects are ready to run as-is:
 
 ```bash
 cd samples/S3BasicLoad
 dotnet run
-```
-
-**Using the SDK in Your Own Project:**
-
-To use the SDK in your own project, copy the `NuGet.config` and `packages` directory from `samples` into your project directory, then add the package reference:
-
-```bash
-dotnet add package Datafication.S3Connector
-```
-
-**After Repository Updates:**
-
-If the repository is updated with new package versions, clear your local NuGet cache and rebuild:
-
-```bash
-dotnet nuget locals all --clear
-dotnet restore
-dotnet build
-```
-
-**Once Available on NuGet.org:**
-
-```bash
-dotnet add package Datafication.S3Connector
 ```
 
 ## Supported File Types
