@@ -52,7 +52,7 @@ Datafication.S3Connector is a specialized connector library that bridges Amazon 
 > **Note**: Datafication.S3Connector is currently in pre-release. The packages are now available on nuget.org.
 
 ```bash
-dotnet add package Datafication.S3Connector --version 1.0.1
+dotnet add package Datafication.S3Connector --version 1.0.2
 ```
 
 **Running the Samples:**
