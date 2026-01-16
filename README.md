@@ -1,5 +1,7 @@
 # Datafication.S3Connector
 
+[![NuGet](https://img.shields.io/nuget/v/Datafication.S3Connector.svg)](https://www.nuget.org/packages/Datafication.S3Connector)
+
 An S3 file connector for .NET that provides seamless integration between AWS S3 (and S3-compatible services) and the Datafication.Core DataBlock API.
 
 ## Description
